@@ -22,6 +22,7 @@
 		847D099C28B727EC00B793C5 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D099B28B727EC00B793C5 /* SliderView.swift */; };
 		847D099E28B7281400B793C5 /* Marquee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D099D28B7281400B793C5 /* Marquee.swift */; };
 		847D09A028B78AE000B793C5 /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D099F28B78AE000B793C5 /* MarqueeText.swift */; };
+		847D09A228B9FC8F00B793C5 /* Marq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D09A128B9FC8F00B793C5 /* Marq.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		847D099B28B727EC00B793C5 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		847D099D28B7281400B793C5 /* Marquee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marquee.swift; sourceTree = "<group>"; };
 		847D099F28B78AE000B793C5 /* MarqueeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeText.swift; sourceTree = "<group>"; };
+		847D09A128B9FC8F00B793C5 /* Marq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marq.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				847D099B28B727EC00B793C5 /* SliderView.swift */,
 				847D099D28B7281400B793C5 /* Marquee.swift */,
 				847D099F28B78AE000B793C5 /* MarqueeText.swift */,
+				847D09A128B9FC8F00B793C5 /* Marq.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				844E3C4027A1765300CF8E9F /* BlurView.swift in Sources */,
 				847D099428B7276400B793C5 /* SettingView.swift in Sources */,
 				847D099C28B727EC00B793C5 /* SliderView.swift in Sources */,
+				847D09A228B9FC8F00B793C5 /* Marq.swift in Sources */,
 				847D099A28B727CB00B793C5 /* Settings.swift in Sources */,
 				847D099828B727A000B793C5 /* TopMenu.swift in Sources */,
 				844E3C3E27A15AE900CF8E9F /* Home.swift in Sources */,

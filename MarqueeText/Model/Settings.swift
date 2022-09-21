@@ -19,7 +19,7 @@ class SystemViewModel: ObservableObject {
     
     //Setting for Text
     @Published var textEffect: String = ""
-    @Published var textSize: CGFloat = 400  //// --->>> MAX 400 ---> MIN 150
+    @Published var textSize: CGFloat = 40  //// --->>> MAX 400 ---> MIN 150
     @Published var textColor: Color = .black
     @Published var textSpeed: Double = 5
     @Published var textDelay: Double = 0
@@ -33,6 +33,7 @@ class SystemViewModel: ObservableObject {
     @Published var backgroundImage: String = ""
     @Published var backgroundColor: Color = .white
     
+    
     var textCount: [String] {
         var counter = UIScreen.main.bounds.height / widthOfText()
         if counter < 1 {
@@ -41,7 +42,6 @@ class SystemViewModel: ObservableObject {
         let arrStr = [String](repeating: textToShow, count: Int(counter))
         return arrStr
     }
-    
     
     private func widthOfText() -> CGFloat {
         return textToShow.widthOfString(usingFont: UIFont(name: textFont, size: textSize) ?? .systemFont(ofSize: textSize))

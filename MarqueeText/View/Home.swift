@@ -29,11 +29,13 @@ struct Home: View {
             VStack {
 //                Marquee(systemViewModel: systemViewModel)
                 if systemViewModel.animationPlay {
-                    Marquee(systemViewModel: systemViewModel)
+//                    Marquee(systemViewModel: systemViewModel)
+                    Marq(systemViewModel: systemViewModel)
+                    .background(.purple)
                     .frame(width: UIScreen.main.bounds.height)
 
 //                    MarqueeText(systemViewModel: systemViewModel)
-//                        .frame(width: UIScreen.main.bounds.height + widthOfText()*2)
+//                    .frame(width: UIScreen.main.bounds.height + widthOfText()*2)
 
                     .rotationEffect(.degrees(rotateMarquee))
                 }
